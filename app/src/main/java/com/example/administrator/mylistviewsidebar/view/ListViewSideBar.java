@@ -10,6 +10,9 @@ import android.view.View;
 
 import com.example.administrator.mylistviewsidebar.R;
 
+/**
+ * 自定义控件
+ */
 public class ListViewSideBar extends View{
 
     /**
