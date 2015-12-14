@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="5dp">
+
+    <TextView
+        android:id="@+id/tv_item_sortKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:textColor="#FFFFFF"
+        android:background="#AAAAAA"
+        android:text="A"
+        />
+
+    <TextView
+        android:id="@+id/tv_item_name"
+        android:layout_below="@+id/tv_item_sortKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="姓名"
+        />
+
+</RelativeLayout>
